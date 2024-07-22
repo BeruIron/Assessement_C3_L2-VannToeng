@@ -5,15 +5,41 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  
+}
+header, footer{
+  background-color: red;
+  text-align: center;
+  padding: 20px 10px;
 }
 
-footer,
-header {
-  background-color: #F13A00;
+.left{
+  background-color: rgb(105, 100, 177);
+  flex: 1;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  background-color: rgb(77, 118, 138);
+  flex: 1;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   background-color: #12EC28;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  gap: 10px;
+  text-align: center;
+  
 }
 
 
