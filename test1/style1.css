@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  footer{
+    margin-top: 10px;
+    background-color: #F13A00;
+    padding: 20px 10px;
+  }
+  header {
+    margin-bottom: 10px;
+    background-color: #F13A00;
+    padding: 20px 10px;
+    
+  
+  }
+  .B{
+    background-color: rgb(105, 100, 177);
+    flex: 1;
+    border: solid 1px black;
+    padding: 100px 150px;
+    justify-content: space-between;
+    
+  }
+  .C{
+    background-color: aqua;
+    flex: 1;
+    border: solid 1px black;
+    padding: 400px 350px;
+    display: flex;
+    
+  
+  }
+  main {
+    
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+  
+  
+  
